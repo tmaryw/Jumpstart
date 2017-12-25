@@ -1,0 +1,150 @@
+html {
+  font-size: 14px;
+  font-family: "OpenSans";
+
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+div {
+  display: block;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*navbar styling*/
+.navbar {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.nav li a {
+  display: block;
+  position: relative;
+}
+
+.nav .navbar-nav li a {
+  color: #777;
+  font-family: "OpenSans";
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: inherit;
+  color: #399bd1;
+}
+
+/*jumbotron styling*/
+.jumbotron {
+  padding-top: 11.85rem;
+  padding-bottom: 11.35rem;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.jumbotron h1 p {
+  color: white;
+}
+.jumbotron h1 {
+  font-family: "Monoton", sans-serif;
+  font-size: 7.1rem;
+}
+.jumbotron p {
+  max-width: 51.3rem;
+  margin: auto;
+}
+
+.relative-wrapper {
+  position: relative;
+  top: -16rem;
+  width: 100%;
+  text-align: center;
+}
+
+.jumbotron.jumbotron-bike {
+  background-image: url(../images/jumbotron-bike.jpg);
+}
+
+.btn-primary {
+  width: 11.4rem;
+  margin-top: 2.8rem;
+  padding: 1.3rem auto;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.btn-primary:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+/*featured-project styling*/
+.image-container {
+  overflow: hidden;
+}
+
+.col-xs-12 {
+  width: 100%;
+}
+
+.featured-project.image-container {
+  margin-top: 20px;
+}
+
+.categories li {
+  line-height: 1.4rem;
+  color: rgba(0,0,0,0.7);
+}
+
+/*projects styling*/
+.projects .image-container {
+  height: 13.5rem;
+}
+
+.image-container img {
+  opacity: 0.7rem;
+}
+.projects {
+  margin-bottom: 5.85rem;
+}
+
+/*help styling*/
+strong {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+}
+
+.help p {
+  width: 42rem;
+}
+
+.help {
+  padding: 5.2rem auto;
+  background-color: #f3f3f3;
+  text-align: center;
+}
