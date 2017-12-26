@@ -2,25 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Jumpstart</title>
     <!--favicon links-->
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
     <!--google font links-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,700" rel="stylesheet">
@@ -28,11 +12,16 @@
     <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
     <!--bootstap link-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!--slick links (CSS and JS)-->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.css"/>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.min.js"></script>
+    <!--slick CSS-->
+    <link rel="stylesheet" type="text/css" href="./resources/slick/slick.css">
     <!--css stylesheet link-->
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+    <!--JS links-->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./resources/JS/main.js"></script>
+    <script type="text/javascript" src="./resources/slick/slick.min.js"></script>
 
   </head>
   <body>
@@ -44,17 +33,40 @@
           <li><a href="#">Start a project</a></li>
           <li><a href="#">About Us</a></li>
         </ul>
-        <img src="./resources/images/logo.png" class="navbar-brand navbar-right navbar-collapse">
+        <img src="./resources/images/logo.png" class="navbar-brand navbar-right collapse navbar-collapse">
       </div>
     </nav>
     <!--jumbotron section-->
-    <div class="jumbotron jumbotron-bike">
-      <h1 class="col-xs-12">GET GOING</h1>
-      <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
-      <div class="relative-wrapper">
-        <a href="#" class="btn btn-primary btn-lg cta">Jump in</a>
+    <div class="carousel">
+      <div class="jumbotron jumbotron-bike">
+        <div class="container-fluid">
+          <h1 class="col-xs-12">GET GOING</h1>
+          <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
+        </div>
       </div>
+      <div class="jumbotron jumbotron-beer">
+        <div class="container-fluid">
+          <h1>GET THINKING.</h1>
+          <p>Meet like-minded individuals who will help fuel your creative juices.</p>
+        </div>
+      </div>
+      <div class="jumbotron jumbotron-flowers">
+        <div class="container-fluid">
+          <h1>GET CREATING.</h1>
+          <p>Stop overthinking projects and begin putting them out into the world.</p>
+        </div>
+      </div>
+      <div class="jumbotron jumbotron-duffel">
+        <div class="container-fluid">
+          <h1>GET STARTED.</h1>
+          <p>What are you waiting for? Today's the day for your next big idea.</p>
+        </div>
+      </div>
+    </div>  
+    <div class="relative-wrapper">
+      <a href="#" class="btn btn-primary btn-lg cta">Jump in</a>
     </div>
+
     <!--featured projects section-->
     <div class="container featured-project">
       <div class="row">
@@ -129,7 +141,7 @@
       <div class="container-fluid help">
         <strong>Having trouble thinking of an idea?</strong>
         <p>Inventors block strikes at the worst times. But that's all changed with Jumpstart's Good Idea Generator Lite (GIGLi).</p>
-        <a href="#" class="btn btn-primary btn-lg cta">Learn more</a> 
+        <a href="#" class="btn btn-primary btn-lg cta">Learn more</a>
       </div>
 
 
